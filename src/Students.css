@@ -1,0 +1,6 @@
+.list{
+    display: flex;
+}
+.list-space {
+    padding-left: 10px;
+}

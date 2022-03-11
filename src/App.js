@@ -1,6 +1,7 @@
 import './App.css';
 import Welcome from './Welcome';
 import Counter from './Counter';
+import Student from './Students';
 import { useState } from 'react';
 
 class Demo {
@@ -39,6 +40,7 @@ function App() {
         The value of a = {n()}
         <Welcome name="Bond" />
         <Counter />
+        <Student />
       </div>
     </div>
   );
