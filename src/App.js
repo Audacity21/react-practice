@@ -1,6 +1,7 @@
 import './App.css';
 import Welcome from './Welcome';
 import Counter from './Counter';
+import { useState } from 'react';
 
 class Demo {
   add() {
@@ -13,7 +14,7 @@ class Demo {
 
 const n = () => {
   var a = 5;
-  if(a == 5) {
+  if(a === 5) {
     a = 10;
   }
   return a;
@@ -21,9 +22,18 @@ const n = () => {
 
 function App() {
   var obj = new Demo();
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleMode = () => {
+    setDarkMode(!darkMode);
+  }
+
   return (
-    <div className="App">
-      <div className="app-header"> Welcome to React App</div>
+    <div className={darkMode ? 'App-dark' : 'App'}>
+      <div className="app-header">
+        Welcome to React App
+        <button onClick={toggleMode}>Toggle Mode</button>
+      </div>
       <div className="app-sum">
         The sum of numbers = {obj.add()} <br />
         The value of a = {n()}
