@@ -1,5 +1,6 @@
 import './App.css';
 import Welcome from './Welcome';
+import Counter from './Counter';
 
 class Demo {
   add() {
@@ -27,6 +28,7 @@ function App() {
         The sum of numbers = {obj.add()} <br />
         The value of a = {n()}
         <Welcome name="Bond" />
+        <Counter />
       </div>
     </div>
   );
