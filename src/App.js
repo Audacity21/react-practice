@@ -1,8 +1,8 @@
 import './App.css';
-import Welcome from './Welcome';
-import Counter from './Counter';
-import Student from './Students';
-import Notes from './Notes'
+import Welcome from './Components/Welcome';
+import Counter from './Components/Counter';
+import Student from './Components/Students';
+import Notes from './Components/Notes'
 import { useState } from 'react';
 
 class Demo {

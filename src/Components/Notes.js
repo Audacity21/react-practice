@@ -1,6 +1,6 @@
 import {nanoid} from 'nanoid';
 import { useState } from 'react';
-import './Notes.css';
+import '../Styles/Notes.css';
 
 function Notes () {
     const [note,setNote] = useState([

@@ -1,4 +1,4 @@
-import './Students.css';
+import '../Styles/Students.css';
 
 function Student () {
     const newList = [1, 2, 3, 4, "Ankit"]
