@@ -6,7 +6,7 @@ function Student () {
     return (
         <div className="list">
             List: 
-            {newList.map((listvalues) => <div className='list-space'>{listvalues}</div>)}
+            {newList.map((listvalues) => <div className='list-space'>{listvalues}, </div>)}
         </div>
     );
 }

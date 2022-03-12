@@ -1,0 +1,12 @@
+.note-card {
+    background-color: rgb(146, 69, 218);
+    height: 240px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    color: aliceblue;
+    font-size: 20px;
+    display: block;
+    justify-content: space-between;
+}

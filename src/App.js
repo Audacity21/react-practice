@@ -2,6 +2,7 @@ import './App.css';
 import Welcome from './Welcome';
 import Counter from './Counter';
 import Student from './Students';
+import Notes from './Notes'
 import { useState } from 'react';
 
 class Demo {
@@ -41,6 +42,7 @@ function App() {
         <Welcome name="Bond" />
         <Counter />
         <Student />
+        <Notes />
       </div>
     </div>
   );
