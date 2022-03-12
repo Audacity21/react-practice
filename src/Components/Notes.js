@@ -22,7 +22,7 @@ function Notes () {
     ]);
 
     return (
-        <div className="list"> 
+        <div className="note-list"> 
             {note.map((listvalues) => 
             <div className="note-card">
                 <div className="note-text">{listvalues.text}</div>

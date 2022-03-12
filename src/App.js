@@ -42,6 +42,7 @@ function App() {
         <Welcome name="Bond" />
         <Counter />
         <Student />
+        <h4>Notes: </h4>
         <Notes />
       </div>
     </div>
